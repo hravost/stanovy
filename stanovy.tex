@@ -1,0 +1,237 @@
+% !TEX TS-program = pdfcslatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[10pt]{article}
+\usepackage{czech}
+\usepackage[utf8]{inputenc}
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margins=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%  read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+% \usepackage{booktabs} % for much better looking tables
+% \usepackage{array} % for better arrays (eg matrices) in maths
+% \usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+% \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+% \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{Strana \thepage\ z \pageref{LastPage}}\rfoot{}
+
+\usepackage{enumerate}
+
+%%% SECTION TITLE APPEARANCE
+% \usepackage{sectsty}
+% \allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+% \usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+% \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+% \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+% \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\newcounter{clanek}
+\setcounter{clanek}{0}
+\newcommand{\clanek}[1]{\section*{\addtocounter{clanek}{1}\textit{článek \Roman{clanek}}\\ #1}} % customise the layout...
+\newcommand{\iii}[1]{\textbf{#1}}
+
+\newcommand{\halfspace}{\hskip 0.4ex}
+\newcommand{\hravost}{Hravost o.\halfspace s.}
+
+
+\title{STANOVY\\občanského sdružení\\\uv{\hravost}}
+\date{} % Activate to display a given date or no date (if empty),
+     % otherwise the current date is printed 
+
+\begin{document}
+\setlength{\parindent}{0pt}
+\maketitle
+\thispagestyle{fancy}
+
+\begin{flushleft}
+
+\clanek{Název a sídlo, působnost a charakter sdružení}
+\begin{enumerate}
+\item \iii{Název sdružení} je \uv{{\bf \hravost}} (dále jen \uv{sdružení}).
+\item \iii{Sídlem sdružení} je klubovna sdružení --- adresa: Kvasiny 384, 517 02 Kvasiny
+\item \iii{Sdružení působí} na celém území České republiky, sdružení se nečlení na organizační jednotky --- celé sdružení je místně příslušnou organizační jednotkou.
+\item \iii{Charakter sdružení} je určen jako nepolitická organizace, nezávislá na politických stranách a orgánech státní správy a moci, ve které se sdružují fyzické i právnické osoby s~cílem propagovat deskové a karetní dovednostní hry a šířit tento druh zábavy ve~společnosti, zejména jako alternativu k méně vhodným formám trávení volného času.
+\item \iii{Sdružení je} občanským sdružením založeným v~souladu se zákonem č. 83/1990 Sb., o~sdružování občanů, v~platném znění. 
+\end{enumerate}
+
+\clanek{Poslání a cíle činnosti}
+\begin{enumerate}
+\item \iii{Základním posláním} sdružení je rozvoj a podpora volnočasových aktivit, kulturního a sportovního vyžití včetně organizace a zajištění akcí pro členy sdružení a případné další zájemce.
+\item \iii{Cíle sdružení} jsou:
+\begin{enumerate}[\it a\/$_{^)}$]
+\item propagace deskových a karetních her;
+\item prevence kriminality mladistvých;
+\item propagace elektronické podoby deskových a karetních dovednostních her;
+\item šíření a vývoj elektronických podob deskových her za účelem jejich propagace.
+\end{enumerate}
+\end{enumerate}
+
+\clanek{Náplň a Formy činnosti}
+\begin{enumerate}
+\item \iii{Náplň činnosti} musí odpovídat poslání a cílům sdružení dle článku~II. těchto stanov.
+\item \iii{Hlavním formou} dosahování cílů sdružení je
+\begin{enumerate}[\it a\/$_{^)}$]
+\item osvětová činnost v~oblasti deskových a karetních dovednostních her;
+\item pořádání turnajů v~takovýchto hrách za účelem propagace;
+\item poskytování a organizace volnočasových aktivit pro děti a mladistvé v~rámci cílů sdružení;
+\item vytváření materiálního zázemí pro plnění výše uvedených poslání a cílů;
+\item prevence kriminality mladistvých a mladých dospělých lidí.
+\end{enumerate}
+\item \iii{Další formy} a konkretizaci činnosti stanoví členská schůze.
+\end{enumerate}
+
+
+\clanek{Členství ve sdružení}
+\begin{enumerate}
+\item \iii{Zakládajícím členem sdružení} je fyzická osoba, která se účastní činnosti přípravného výboru a proti jejímuž členství nebyly vzneseny odůvodněné námitky ze strany ostatních osob účastnících se činnosti přípravného výboru.
+\item \iii{Členem sdružení} může být jen fyzická osoba starší 18 let nebo právnická osoba, která podá přihlášku ke členství doručenou na adresu sídla sdružení. 
+\item \iii{Členství vzniká} na základě rozhodnutí členské schůze sdružení, kdy pro přijetí člena je potřeba souhlas všech přítomných členů sdružení na členské schůzi a splacení zápisného a členského příspěvku, je-li určen stanovami či rozhodnutím členské schůze.
+\item \iii{Členství zaniká}
+\begin{enumerate}[\it a\/$_{^)}$]
+\item doručením písemného oznámení člena o~vystoupení výboru sdružení;
+\item doručením písemného oznámení o~konsensu všech zbývajících členů sdružení o~vyloučení člena vylučovanému členu, například při hrubém porušení stanov sdružení;
+\item smrtí fyzické osoby či zánikem právnické osoby, která je členem sdružení;
+\item zánikem sdružení.
+\end{enumerate}
+\item \iii{Člen má právo}
+\begin{enumerate}[\it a\/$_{^)}$]
+\item účastnit se činnosti sdružení a jeho orgánů a být o~této činnosti informován;
+\item účastnit se členské schůze, volit orgány sdružení a být do nich volen;
+\item předkládat návrhy, podněty a připomínky k činnosti sdružení;
+\item podílet se na stanovování cílů a forem činnosti sdružení.
+\end{enumerate}
+\pagebreak[2]
+\item \iii{Člen má povinnost}
+\begin{enumerate}[\it a\/$_{^)}$]
+\item dodržovat tyto stanovy, a jednat v~souladu s cíly sdružení; 
+\item v~souladu s rozhodnutím členské schůze platit členské příspěvky ve stanovené výši.
+\end{enumerate}
+\item \iii{Výše členského příspěvku} může být rozdílná pro různé členy sdružení v~závislosti na~jejich finančních možnostech a sociální situaci. Konkrétní výši členských příspěvků stanoví členská schůze na základě svého rozhodnutí.
+\end{enumerate}
+
+
+\clanek{Orgány sdružení}
+\begin{enumerate}
+\item \iii{Orgány sdružení} jsou:
+\begin{enumerate}[\it a\/$_{^)}$]
+
+\item členská schůze;
+\item výbor a předseda sdružení;
+\item revizor sdružení.
+\end{enumerate}
+\end{enumerate}
+
+
+\clanek{Členská schůze}
+\begin{enumerate}
+\item \iii{Členská schůze je} nejvyšším orgánem sdružení a schází se nejméně jedenkrát ročně.
+\item \iii{Členskou schůzi svolává} výbor sdružení a členská schůze je usnášeníschopná, je-li přítomna alespoň polovina členů sdružení. Nesejde-li se usnášeníschopná členská schůze, svolá výbor sdružení nejpozději do jednoho měsíce, ale ne dříve než za 10 dnů, náhradní členskou schůzi, kdy tato je usnášeníschopná bez ohledu na počet přítomných členů.
+\item \iii{Členskou schůzi svolá} výbor sdružení na základě vlastního rozhodnutí v~souladu s těmito stanovami, a dále také na písemnou žádost více než $1/3$~členů sdružení a to ve lhůtě do jednoho měsíce, není-li v~žádosti uvedena lhůta pozdější.
+\item \iii{Členská schůze přijímá rozhodnutí} hlasováním, kdy každý člen disponuje právě jedním hlasem; pro přijetí rozhodnutí je potřeba souhlas nadpoloviční většiny přítomných členů, pokud tyto stanovy neurčují jinak.
+\item \iii{Členská schůze}
+\begin{enumerate}[\it a\/$_{^)}$]
+\item schvaluje stanovy sdružení a jejich změny, rozhoduje o~zániku sdružení; pro přijetí těchto rozhodnutí je potřeba konsensu všech členů sdružení;
+\item volí předsedu sdružení, výbor sdružení a revizora;
+\item schvaluje rozpočet, zprávu o~činnosti, zprávu o~hospodaření za minulé období a revizní zprávu;
+\item přijímá nové členy;
+\item rozhoduje o~vyloučení člena sdružení konsensem všech členů sdružení;
+\item určuje formy a konkretizaci činnosti pro další období;
+\item stanovuje výši zápisného a členských příspěvků.
+\end{enumerate}
+\end{enumerate}
+
+
+\clanek{Výbor a předseda sdružení, jednání jménem sdružení}
+\begin{enumerate}
+\item \iii{Výbor sdružení je} tříčlenný, jeho funkčním obdobím je jeden rok. 
+\item \iii{Výbor sdružení se skládá} z předsedy sdružení a dvou členů výboru. Činnost výboru sdružení řídí předseda sdružení, jeho hlas rozhoduje v~případě rovnosti hlasů.
+\item \iii{Výbor sdružení řídí} sdružení v~období mezi členskými schůzemi a projednává věci, zprávy, změny či návrhy členů sdružení. Schůze výboru sdružení je volně přístupná členům sdružení. 
+%
+% \item \iii{Předseda sdružení} je statutárním orgánem sdružení. Jménem sdružení jedná navenek každý z členů výboru tak, že při podpisu jakékoliv listiny či přijetí jakéhokoliv písemného usnesení nebo rozhodnutí, je třeba podpis předsedy sdružení a minimálně jednoho dalšího člena výboru sdružení pro platnost takové listiny, usnesení či rozhodnutí, není-li v~těchto stanovách určeno jinak. v~případě projednávání věci ve formě, které nevyžaduje písemnou formu, je oprávněn jménem sdružení jednat každý ze členů výboru sdružení samostatně, není-li v~těchto stanovách určeno jinak. 
+\item \iii{Předseda sdružení} je statutárním orgánem sdružení. Jménem sdružení smí jednat navenek pouze předseda sdružení, nebo předsedou písemně pověřený člen výboru sdružení, a to tak, že jeho jednání není v rozporu s usnesením členské schůze nebo rozhodnutím výboru sdružení. Listiny, písemná usnesení nebo rozhodnutí, které předseda jménem sdružení podepisuje jsou platné a pro sdružení závazné. Listiny týkající se hospodářských a finančních záležitostí sdružení jsou platné při podpisu předsedou a oběma členy výboru.
+%
+\item \iii{Výbor sdružení se schází} dle potřeby, zpravidla alespoň jedenkrát za 3 měsíce a k~přijetí usnesení či rozhodnutí výboru sdružení je třeba souhlas předsedy sdružení a minimálně jednoho dalšího člena výboru sdružení.
+\item \iii{Výbor sdružení}
+\begin{enumerate}[\it a\/$_{^)}$]
+\item na nejbližší schůzi projedná věc, požádá-li o~to člen sdružení;
+\item připravuje zprávu o~činnosti za minulé období;
+\item připravuje návrh rozpočtu na další období;
+\item připravuje případné změny stanov, návrh cílů další činnosti.
+\end{enumerate}
+\item \iii{Rozhodnutí} v~hospodářských a finančních věcech smí přijímat pouze výbor sdružení jako celek, a to konsensem všech jeho členů.
+\end{enumerate}
+
+
+\clanek{Revizor sdružení}
+\begin{enumerate}
+\item \iii{Kontroluje} činnost sdružení, především jeho hospodaření a plnění rozhodnutí členské schůze; jeho funkčním obdobím je jeden rok.
+\item \iii{Připravuje} revizní zprávy a posudek návrhu výroční zprávy a tyto předkládá členské schůzi.
+\item \iii{V~průběhu vykonávání funkce} revizora nelze takto jmenovanému členovi sdružení měnit výši členských příspěvků, vyloučit ho ze sdružení ani jiným způsobem zasahovat do~jeho činnosti ve sdružení.
+\end{enumerate}
+
+
+\clanek{Zásady hospodaření}
+\begin{enumerate}
+%
+%\item \iii{Sdružení je neziskovou organizací.} Případné příjmy budou tvořit zápisné a členské poplatky, příspěvky členů, dary, dotace a granty a budou používány na činnost sdružení. Dalšími příjmy mohou být příjmy z činnosti, která je v~souladu s cíli sdružení. Sdružení může uzavřít smlouvu o~spolupráci s fyzickou nebo právnickou osobou pro finanční zajištění svých aktivit.
+\item \iii{Sdružení je neziskovou organizací.} Případné příjmy budou tvořit zápisné a členské poplatky, příspěvky členů, dary, dotace a granty a budou používány na činnost sdružení. Dalšími příjmy mohou být příjmy z činnosti, která je v~souladu s cíli sdružení, zejména z~pořádání turnajů v~dovednostních karetních a deskových hrách za účelem jejich propagace.
+%
+%\item \iii{Výdaje sdružení} jsou zaměřeny na uskutečňování cílů sdružení v~souladu s formami činností podle těchto stanov a rozpočtem sdružení. Sdružení může v~rámci uskutečňování svých cílů najímat na některé činnosti fyzické nebo právnické osoby. Smlouvy s těmito osobami musí odsouhlasit výbor sdružení konsensem a členské sdružení na jeho nejbližší schůzi.
+\item \iii{Výdaje sdružení} jsou zaměřeny na uskutečňování cílů sdružení v~souladu s formami činností podle těchto stanov a rozpočtem sdružení a na provoz sdružení.
+%
+\item \iii{V~případě zániku sdružení} je jeho majetek po provedené likvidaci bezplatně převeden na jinou právnickou osobu neziskového charakteru, jejíž cíle jsou blízké cílům sdružení. Jestliže nebude tato osoba nalezena do 3 měsíců od ukončení likvidace, rozdělí se zbývající majetek rovným dílem mezi členy sdružení.
+\end{enumerate}
+
+
+\clanek{Přechodná a závěrečná ustanovení}
+\begin{enumerate}
+\item \iii{V~přípravné fázi} do doby registrace sdružení a následné volby výboru sdružení na první členské schůzi jedná za klub jeho přípravný výbor, jehož členové jsou níže podepsáni.
+\end{enumerate}
+
+\vfill
+
+\begin{flushright}
+{\em v~Rychnově nad Kněžnou~~28.\halfspace května~2012}
+\end{flushright}
+
+\newcommand{\podpis}[3]{\vfill{\bf #1}\\narozen #2\\bytem #3\vskip 2pt\hrule}
+
+\podpis{Martin Horák}{30.11.\halfspace 1976}{Kvasiny 61\\517 02 Kvasiny}
+\podpis{Pavel Lang}{12.11.\halfspace 1983}{Havlíčkova 136\\516 01 Rychnov nad Kněžnou}
+\podpis{Daniel Cvejn}{13.7.\halfspace 1985}{Štemberkova 846\\516 01 Rychnov nad Kněžnou}
+\podpis{Michal Doležal}{27.3.\halfspace 1992}{Lipovka 113\\516 01 Rychnov nad Kněžnou}
+\label{LastPage}
+\end{flushleft}
+
+\end{document}
+
